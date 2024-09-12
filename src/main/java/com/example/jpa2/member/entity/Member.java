@@ -14,4 +14,16 @@ public class Member {
     private Long id;
 
     private String name;
+
+    public Member(String name){
+        this.name = name;
+    }
+
+    public Member() {
+
+    }
+
+    public void updateMember(String name){
+        this.name = name;
+    }
 }
